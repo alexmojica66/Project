@@ -1,52 +1,82 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>CustomizePC</title>
-    <link rel="stylesheet" href="">
-  </head>
-  <body>
-<header>
-  <h1>CustomizePC</h1>
-  <div>
-  <nav>
-    <ul>
-      <li><a href="#">Motherboard</a></li>
-      <li><a href="#">Processors</a></li>
-      <li><a href="#">Gaming</a></li>
-      <li><a href="#">Sign in/Register</a></li>
-    </ul>
-  </nav>
-</div>
-</header>
-<div >
-  <h1>TODAYS' BEST DEALS</h1>
-</div>
-<div>
-  <figure>
-    <a href="#"><img src="images/laptop.jpg" alt="Image of product"></a>
-    <figcaption>Product description and price</figcaption>
-  </figure>
-</div>
-<div>
-  <figure>
-    <a href="#"><img src="images/tower.jpg" alt="Image of product"></a>
-    <figcaption>Product description and price</figcaption>
-  </figure>
-</div>
-<div>
-  <figure>
-    <a href="#"><img src="images/screen.jpg" alt="Image of product"></a>
-    <figcaption>Product description and price</figcaption>
-  </figure>
-</div>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CustomizePC</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <header>
+    <div class="container">
+      <img class= "banner" src="images/BannerCPC.png" alt="Banner image">
+      <nav>
+        <ul>
+          <li><a href="#">Motherboard</a></li>
+          <li><a href="#">Processors</a></li>
+          <li><a href="#">Gaming</a></li>
+          <li><a href="#">Sign in/Register</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+<h1>TODAY'S BEST DEALS</h1>
+  <div class="items">
+    <table>
+    <tr>
+      <th><a href="#"><img id = "laptop" src="images/laptop.jpg"></a></th>
+      <th><a href="#"><img id= "monitor" src="images/monitor.jpg"></a></th>
+      <th><a href="#"><img id= "skytech" src="images/skytech.jpg"></a></th>
+    </tr>
+
+    <tr>
+      <td>ROG Zephyrus G15 (2020) - 15.6" 144 gz - GeForce GTX 1660 Ti - AMD Ryzen 7 4800HS -
+      16 GB DDR4 -<br> 1 TB PCIe SSD - Windows 10 - Ultra Slim Gaming Laptop (GA502IU-ES76)</td>
+      <td>ASUS VG278Q 27" Full HD 1920 x 1080 144Hz 1ms DisplayPort HDMI DVI <br>Asus Eye Care with Ultra Low-Blue light</td>
+      <td>Skytech Archangel - Ryzen 5 3600, GeForce GTX 1660, 500 GB SSD, 16 GB DDR4, <break>RGB Fans, Windows 10 Home</td>
+    </tr>
+
+    <tr>
+      <td>$1,299.99</td>
+      <td>$239.99</td>
+      <td>$749.99</td>
+    </tr>
+  </table>
+  </div>
+
+  <div class="items2">
+    <table>
+    <tr>
+      <th><a href="#"><img id = "motherboard" src="images/motherboard.jpg"></a></th>
+      <th><a href="#"><img id= "processor" src="images/processor.jpg"></a></th>
+      <th><a href="#"><img id= "keyboard" src="images/keyboard.jpg"></a></th>
+    </tr>
+
+    <tr>
+      <td>MSI MPG B550 GAMING EDGE WIFI AM4 AMD B550 SATA 6Gb/s ATX AMD Motherboard</td>
+      <td>Intel Core i7-10700K Comet Lake 8-Core 3.8 GHz LGA 1200 125W Desktop Processor w/ Intel UHD Graphics 630</td>
+      <td>Corsair K70 RGB MK.2 SE Cherry MX Speed Mechanical Gaming Keyboard with RGB LED Backlit and White PBT Keycaps - CH-9109114-NA</td>
+    </tr>
+
+    <tr>
+      <td>$159.99</td>
+      <td>$384.99</td>
+      <td>$215.46</td>
+    </tr>
+  </table>
+  </div>
 <hr>
-<footer>
-  &copy 2020 CustomizePC
-  <ul>
-    <li><a href="#">Return & Refund Policy</a></li>
-    <li><a href="#">Contact Us</a></li>
-  </ul>
-</footer>
-  </body>
+  <footer>
+    <ul>
+      <li><a href="">returns/exchanges</a></li>
+      <li><a href=""> login/register</a></li>
+      <li><a href=""> about</a></li>
+    </ul>
+    &copy CustomizePC
+  </footer>
+
+</body>
+
 </html>
