@@ -1,0 +1,89 @@
+body{
+  margin: 0 auto;
+  background-color: white;
+  padding: 0 auto;
+}
+
+.container{
+  width: 100%;
+  margin: 0 auto;
+
+}
+
+header{
+  background: #071E45;
+}
+
+nav ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li{
+  display: inline-block;
+  margin-left: 70px;
+  padding-bottom: 25px;
+}
+
+nav a{
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav a:hover{
+  color: #444;
+  transition: all ease-in-out 250ms;
+}
+table{
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 100%;
+}
+th{
+  border: 1px solid black;
+}
+td{
+  border: 1px solid black;
+}
+#skytech{
+  height: 40%;
+}
+#laptop{
+  height: 70%;
+}
+#monitor{
+  height: 110%;
+  width: 100%;
+}
+#motherboard{
+  height: 40%;
+}
+#processor{
+  height: 40%;
+  widht: 20%;
+}
+#keyboard{
+  height: 40%;
+}
+footer{
+background-color: #071E45;
+color: white;
+padding-bottom: 50px;
+}
+footer ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+footer li{
+  display: inline-block;
+  margin-left: 70px;
+  padding-bottom: 25px;
+}
+footer a{
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
