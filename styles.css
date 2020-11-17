@@ -1,36 +1,37 @@
 body{
-  margin: 0 auto;
   background-color: white;
-  padding: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
 }
-
-.container{
-  width: 100%;
-  margin: 0 auto;
-
+span{
+  color:white;
 }
 
 header{
   background: #071E45;
+  flex-basis: 100%;
 }
 
-nav ul{
-  margin: 0;
-  padding: 0;
+ion-icon{
+  color:white;
+}
+.container{
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#banner{
+  flex-basis: 100%;
+}
+
+.navigation{
+  display:flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
   list-style: none;
 }
 
-nav li{
-  display: inline-block;
-  margin-left: 70px;
-  padding-bottom: 25px;
-}
-
-nav a{
-  color: white;
-  text-decoration: none;
-  text-transform: uppercase;
-}
 
 nav a:hover{
   color: #444;
@@ -61,7 +62,6 @@ td{
 }
 #processor{
   height: 40%;
-  widht: 20%;
 }
 #keyboard{
   height: 40%;
@@ -70,6 +70,7 @@ footer{
 background-color: #071E45;
 color: white;
 padding-bottom: 50px;
+flex-basis: 100%;
 }
 footer ul{
   margin: 0;
@@ -81,8 +82,15 @@ footer li{
   margin-left: 70px;
   padding-bottom: 25px;
 }
-footer a{
+.list{
   color: white;
   text-decoration: none;
   text-transform: uppercase;
+}
+.items{
+  flex-basis: 100%;
+}
+
+img{
+  max-width: 100%;
 }
