@@ -1,0 +1,195 @@
+body{
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+}
+.cart span{
+  color:white;
+}
+
+
+
+header{
+  background: #071E45;
+  flex-basis: 100%;
+}
+
+.cart ion-icon{
+  color:white;
+  visibility: visible;
+}
+
+.circle{
+  color: red;
+  visibility: visible;
+}
+
+.banner{
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#banner{
+  flex-basis: 100%;
+}
+
+.navigation{
+  display:flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+
+nav a:hover{
+  color: #444;
+  transition: all ease-in-out 250ms;
+}
+table{
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 100%;
+}
+th{
+  border: 1px solid black;
+}
+td{
+  border: 1px solid black;
+}
+#skytech{
+  height: 60%;
+}
+#laptop{
+  height: 70%;
+}
+#monitor{
+  height: 50%;
+}
+#motherboard{
+  height: 40%;
+}
+#processor{
+  height: 40%;
+}
+#keyboard{
+  height: 40%;
+}
+footer{
+background-color: #071E45;
+color: white;
+padding-bottom: 50px;
+flex-basis: 100%;
+}
+footer ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+footer li{
+  display: inline-block;
+  margin-left: 70px;
+  padding-bottom: 25px;
+}
+.list{
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.items{
+  flex-basis: 100%;
+}
+
+img{
+  max-width: 100%;
+}
+
+
+.products-container{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+width: 100%;
+}
+.product-header{
+display: flex;
+justify-content: space-around;
+width: 100%;
+}
+.product-title{
+
+  border-bottom: 3px solid lightgrey;
+}
+.product-price{
+
+border-bottom: 3px solid lightgrey;
+
+
+}
+.product-quantity{
+
+  border-bottom: 3px solid lightgrey;
+
+}
+.product-total{
+margin-right:10%;
+  border-bottom: 3px solid lightgrey;
+
+
+}
+.products{
+display: flex;
+flex-wrap: wrap;
+width: 100%
+}
+.decrease{
+  color: blue;
+}
+.increase{
+  color: blue;
+}
+.product{
+
+flex-basis: 25%;
+
+}
+.price{
+
+flex-basis: 25%;
+}
+.quantity{
+
+flex-basis: 25%;
+}
+.total{
+
+}
+
+@media only screen and (max-width: 600px){
+  #monitor{
+    width: 90%;
+    height: 50%;
+    margin-left: 8%;
+  }
+  #laptop{
+    height:50%;
+  }
+  #skytech{
+    height: 60%;
+  }
+  footer ul{
+    display: flex;
+    margin-top: 5%;
+  }
+  footer li{
+    flex-basis: 100%;
+  }
+  nav{
+    display: flex;
+    justify-content: center;
+  }
+  nav li{
+    flex-basis: 100%;
+
+  }
+}

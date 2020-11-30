@@ -1,17 +1,52 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    
-    <title>Your Shopping Cart</title>
-  </head>
 
-  <body>
-    <div class = "shopping-cart">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CustomizePC</title>
+  <link rel="stylesheet" href="styles/home-styles.css">
+
+
+</head>
+
+<body>
+
+  <header>
+    <div class="banner">
+      <img id="banner" src="images/BannerCPC.png" alt="Banner image">
+    </div>
+      <nav>
+        <ul class="navigation">
+          <li><a class="list" href="index.html">Home</a></li>
+          <li><a class="list" href="#">About</a></li>
+          <li><a class="list" href="login.html">Sign in/Register</a></li>
+          <li class="cart"><a class = "list" href="shoppingCart.html">Cart</a><ion-icon name="basket" size="small" ></ion-icon><span>0</span></li>
+        </ul>
+      </nav>
+  </header>
+  <div class="products-container">
+    <div class="product-header">
+      <h5 class="product-title">PRODUCT</h5>
+      <h5 class="product-price">PRICE</h5>
+      <h5 class="product-quantity">QUANTITY</h5>
+      <h5 class="product-total">TOTAL</h5>
+    </div>
+    <div class="products">
 
     </div>
+  </div>
 
-
-  </body>
-
-</html>
+  <footer>
+    <nav>
+      <ul class="navigation">
+        <li><a class="list" href="">returns/exchanges</a></li>
+        <li><a class="list" href="login.html"> login/register</a></li>
+        <li><a class="list" href=""> about</a></li>
+      </ul>
+    </nav>
+    <p>IT353 Alex Mojica - Cliff McClernon Copyright &copy CustomizePC - 2020</p>
+  </footer>
+   <script src="main.js"></script>
+<script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+</body>
