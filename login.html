@@ -1,14 +1,18 @@
 <html>
   <head>
-      <link rel="stylesheet" href="Styles/stylesLogin.css">
+      <link rel="stylesheet" href="styles/stylesLogin.css">
     <title>Login</title>
   </head>
   <body>
     <div class="login">
-      <input type="text" placeholder="Username / Email" id="username" name = "username">
+      <form action = "validation.php" method = "post">
+
+      <input type="text" placeholder="Username" id="username" name = "username">
       <input type="password" placeholder="Password" id="password" name = "password">
       <a href="creatAcc.html" class="createAcc">Create Account</a>
       <input type="submit" value="Sign In">
+
+    </form>
     </div>
     <div class="shadow"></div>
   </body>

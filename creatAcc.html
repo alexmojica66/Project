@@ -1,15 +1,15 @@
 <html>
   <head>
-      <link rel="stylesheet" href="Styles/stylesCreateAcc.css">
+      <link rel="stylesheet" href="styles/stylesCreateAcc.css">
     <title>Create Account</title>
   </head>
   <body>
     <div class="login">
-      <input type="text" placeholder="Username / Email" id="username" name = "username">
+      <form action = "registration.php" method = "post">
+      <input type="text" placeholder="Username" id="username" name = "username">
       <input type="password" placeholder="Password" id="password" name = "password">
-      <input type="text" placeholder="First Name" id="text" name = "FName">
-      <input type="text" placeholder="Last Name" id="text" name = "LName">
       <input type="submit" value="Create Account">
+    </form>
     </div>
     <div class="shadow"></div>
   </body>
