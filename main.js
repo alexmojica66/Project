@@ -102,19 +102,19 @@ function totalCost(product, action) {
   let cart = localStorage.getItem("totalCost");
 
   if (action) {
-    cart = parseFloat(cart).toFixed(2);
+    cart = parseFloat(cart);
 
-    localStorage.setItem("totalCost", (cart - product.price).toFixed(2));
+    localStorage.setItem("totalCost", cart - product.price);
   } else if (cart != null) {
 
-    cart = parseFloat(cart).toFixed(2);
+    cart = parseFloat(cart);
 
-    localStorage.setItem("totalCost", (cart + product.price).toFixed(2));
+    localStorage.setItem("totalCost", cart + product.price);
 
   } else {
     cart = parseFloat(cart);
 
-    localStorage.setItem("totalCost", (product.price).toFixed(2));
+    localStorage.setItem("totalCost", product.price);
   }
 }
 
